@@ -1,14 +1,14 @@
 pkgname=kdeplasma-applets-window-buttons
 _pkgname=applet-window-buttons
-pkgver=0.7.0
+pkgver=0.8.0
 pkgrel=1
 pkgdesc="Plasma 5 applet in order to show window buttons in your panels"
 arch=(x86_64)
 url="https://github.com/psifidotos/applet-window-buttons"
 license=('GPL2')
 makedepends=(extra-cmake-modules)
-source=("https://github.com/psifidotos/${_pkgname}/archive/v${pkgver}.tar.gz")
-md5sums=('04193d1720be169a48ac529aa9df88c2')
+source=("https://github.com/psifidotos/${_pkgname}/archive/${pkgver}.tar.gz")
+md5sums=('b4b5664ad985faf7673adce6ec61f006')
 
 prepare() {
   mkdir -p ${_pkgname}-${pkgver}/build
